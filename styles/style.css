@@ -247,3 +247,41 @@ body {
   font-size: 20px;
   padding-top: 25px;
 }
+
+/*footer*/
+
+.footer {
+  margin: 90px 50px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-content: end;
+}
+
+.footer .address {
+  padding: 0;
+
+}
+
+.footer__menu {
+  padding-left: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  left: 20px;
+}
+
+.footer__social-icon {
+  display: block;
+  width: 95px;
+  height: 48px;
+}
