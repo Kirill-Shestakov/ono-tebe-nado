@@ -91,7 +91,7 @@ body {
   display: grid;
   grid-template-rows: repeat(3, auto);
   gap: 5px;
-  padding-top: 80px;
+  padding-top: 167px;
   flex-direction: column;
   color: #fff;
   font-size: 100px;
@@ -100,17 +100,14 @@ body {
 }
 
 .aligned-text {
-  display: block;
   margin-left: 50px;
 }
 
 .aligned-text_center {
-  display: block;
   text-align: center;
 }
 
 .aligned-text_right {
-  display: block;
   text-align: end;
   margin-right: 20px;
 }
@@ -120,7 +117,7 @@ body {
 }
 
 .cover__description {
-  padding-top: 126px;
+  padding-top: 130px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
