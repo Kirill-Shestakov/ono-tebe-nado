@@ -92,15 +92,12 @@ body {
   grid-template-rows: repeat(3, auto);
   gap: 5px;
   padding-top: 167px;
+  margin: 0 50px;
   flex-direction: column;
   color: #fff;
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-}
-
-.aligned-text {
-  margin-left: 50px;
 }
 
 .aligned-text_center {
@@ -109,11 +106,14 @@ body {
 
 .aligned-text_right {
   text-align: end;
-  margin-right: 20px;
 }
 
 .letter-spacing-extended {
   letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
